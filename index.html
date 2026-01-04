@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food of Thailand</title>
+    <meta name="description" content="สำรวจความอร่อยของอาหารไทยจาก 4 ภาค - เหนือ อีสาน กลาง ใต้">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="#intro" class="nav-logo">Food of Thailand</a>
+            <div class="nav-menu">
+                <a href="#intro" class="nav-item active" data-section="intro">หน้าแรก</a>
+                <a href="#northern" class="nav-item" data-section="northern">ภาคเหนือ</a>
+                <a href="#isan" class="nav-item" data-section="isan">ภาคอีสาน</a>
+                <a href="#central" class="nav-item" data-section="central">ภาคกลาง</a>
+                <a href="#southern" class="nav-item" data-section="southern">ภาคใต้</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <a href="#intro" class="mobile-menu-item active">หน้าแรก</a>
+        <a href="#northern" class="mobile-menu-item">ภาคเหนือ</a>
+        <a href="#isan" class="mobile-menu-item">ภาคอีสาน</a>
+        <a href="#central" class="mobile-menu-item">ภาคกลาง</a>
+        <a href="#southern" class="mobile-menu-item">ภาคใต้</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="intro" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero-main.jpg" alt="Thai Food Spread">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-gradient"></div>
+        <div class="hero-gradient-side"></div>
+        <div class="letterbox-top"></div>
+        <div class="letterbox-bottom"></div>
+        <div class="film-grain"></div>
+        <div class="ambient-light"></div>
+
+        <div class="container hero-content">
+            <p class="hero-subtitle fade-in delay-2">A Culinary Journey</p>
+            <h1 class="hero-title fade-in delay-4">
+                Food of<br>
+                <span>Thailand</span>
+            </h1>
+            <p class="hero-title-th fade-in delay-6">อาหารไทย 4 ภาค</p>
+            <p class="hero-description fade-in delay-7">
+                สำรวจความอร่อยและเอกลักษณ์ของอาหารไทยจากทั้ง 4 ภูมิภาค 
+                ตั้งแต่รสชาติเข้มข้นของภาคเหนือ ความแซ่บนัวของอีสาน 
+                ความกลมกล่อมของภาคกลาง ไปจนถึงความจัดจ้านของภาคใต้
+            </p>
+            <div class="hero-line fade-in delay-8"></div>
+        </div>
+
+        <a href="#northern" class="scroll-indicator">
+            <span>EXPLORE</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </a>
+
+        <div class="side-text">
+            <p>THAI CUISINE • 4 REGIONS</p>
+        </div>
+    </section>
+
+    <!-- Northern Thailand -->
+    <section id="northern" class="region-section">
+        <div class="region-hero">
+            <div class="region-hero-bg">
+                <img src="images/northern-hero.jpg" alt="ภาคเหนือ">
+            </div>
+            <div class="region-hero-overlay"></div>
+            <div class="region-hero-gradient"></div>
+            <div class="region-hero-gradient-side"></div>
+            <div class="film-grain"></div>
+
+            <div class="container region-hero-content">
+                <p class="region-label fade-in">Northern Thailand</p>
+                <h2 class="region-title fade-in delay-1">ภาคเหนือ</h2>
+                <p class="region-tagline fade-in delay-2">"ลำขะหนาด"</p>
+                <p class="region-description fade-in delay-3">
+                    อาหารเหนือมีรสชาติเข้มข้น หอมกลิ่นสมุนไพร ได้รับอิทธิพลจากวัฒนธรรมล้านนาและประเทศเพื่อนบ้าน นิยมกินกับข้าวเหนียวและผักพื้นบ้าน
+                </p>
+                <div class="region-line fade-in delay-4"></div>
+            </div>
+
+            <div class="region-scroll">
+                <span>SCROLL</span>
+                <div class="region-scroll-line"></div>
+            </div>
+        </div>
+
+        <div class="food-grid-section">
+            <div class="food-grid-ambient"></div>
+            <div class="container">
+                <div class="food-grid-header">
+                    <p class="food-grid-label">Signature Dishes</p>
+                    <h3 class="food-grid-title">เมนูเด็ดประจำภาค</h3>
+                </div>
+                <div class="food-grid">
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/khao-soi.jpg" alt="ข้าวซอยไก่">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Khao Soi Kai</p>
+                            <h4 class="food-card-title-th">ข้าวซอยไก่</h4>
+                            <p class="food-card-description">ก๋วยเตี๋ยวในน้ำแกงกะทิสีเหลืองทอง รสชาติกลมกล่อมจากเครื่องแกงพื้นเมือง เสิร์ฟพร้อมเส้นทอดกรอบ หอมหัวใหญ่ดอง และมะนาว เป็นอาหารที่ได้รับอิทธิพลจากวัฒนธรรมไทใหญ่</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/sai-oua.jpg" alt="ไส้อั่ว">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Sai Oua Sausage</p>
+                            <h4 class="food-card-title-th">ไส้อั่ว</h4>
+                            <p class="food-card-description">ไส้กรอกหมูสมุนไพรพื้นเมืองภาคเหนือ ปรุงรสด้วยตะไคร้ ใบมะกรูด พริกแห้ง และเครื่องเทศหอมกรุ่น ย่างจนหอมกรอบ เสิร์ฟคู่กับผักสดและข้าวเหนียว</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/hang-le.jpg" alt="แกงฮังเล">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Kaeng Hang Le</p>
+                            <h4 class="food-card-title-th">แกงฮังเล</h4>
+                            <p class="food-card-description">แกงหมูสไตล์พม่าที่ได้รับความนิยมในภาคเหนือ รสชาติเข้มข้นจากขิง ขมิ้น และเครื่องเทศ หมูเปื่อยนุ่มในน้ำแกงข้นหอมกรุ่น เป็นอาหารมงคลในงานเทศกาล</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="food-grid-divider"></div>
+        </div>
+    </section>
+
+    <!-- Isan (Northeastern) Thailand -->
+    <section id="isan" class="region-section">
+        <div class="region-hero">
+            <div class="region-hero-bg">
+                <img src="images/isan-hero.jpg" alt="ภาคอีสาน">
+            </div>
+            <div class="region-hero-overlay"></div>
+            <div class="region-hero-gradient"></div>
+            <div class="region-hero-gradient-side"></div>
+            <div class="film-grain"></div>
+
+            <div class="container region-hero-content">
+                <p class="region-label fade-in">Isan - Northeastern Thailand</p>
+                <h2 class="region-title fade-in delay-1">ภาคอีสาน</h2>
+                <p class="region-tagline fade-in delay-2">"เผ็ดอีหลี"</p>
+                <p class="region-description fade-in delay-3">
+                    อาหารอีสานโดดเด่นด้วยรสแซ่บ เผ็ด เค็ม เปรี้ยว ใช้วัตถุดิบพื้นบ้านอย่างปลาร้า ข้าวคั่ว และสมุนไพรสด เป็นอาหารที่เรียบง่ายแต่รสชาติจัดจ้าน
+                </p>
+                <div class="region-line fade-in delay-4"></div>
+            </div>
+
+            <div class="region-scroll">
+                <span>SCROLL</span>
+                <div class="region-scroll-line"></div>
+            </div>
+        </div>
+
+        <div class="food-grid-section">
+            <div class="food-grid-ambient"></div>
+            <div class="container">
+                <div class="food-grid-header">
+                    <p class="food-grid-label">Signature Dishes</p>
+                    <h3 class="food-grid-title">เมนูเด็ดประจำภาค</h3>
+                </div>
+                <div class="food-grid">
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/som-tam.jpg" alt="ส้มตำ">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Som Tam Papaya Salad</p>
+                            <h4 class="food-card-title-th">ส้มตำ</h4>
+                            <p class="food-card-description">ตำมะละกอดิบรสจัดจ้าน ผสมผสานรสเปรี้ยว เค็ม หวาน เผ็ด ได้อย่างลงตัว ใส่มะเขือเทศ ถั่วฝักยาว กุ้งแห้ง ถั่วลิสง ปรุงสดใหม่ในครกดินเผา</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/larb.jpg" alt="ลาบหมู">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Pork Larb</p>
+                            <h4 class="food-card-title-th">ลาบหมู</h4>
+                            <p class="food-card-description">สลัดเนื้อหมูสับรสแซ่บ ปรุงด้วยน้ำปลา มะนาว พริกป่น ข้าวคั่ว และสมุนไพรสด หอมกลิ่นใบสะระแหน่ ต้นหอม ผักชี เสิร์ฟคู่ผักสดและข้าวเหนียว</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/sai-krok.jpg" alt="ไส้กรอกอีสาน">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Sai Krok Isan</p>
+                            <h4 class="food-card-title-th">ไส้กรอกอีสาน</h4>
+                            <p class="food-card-description">ไส้กรอกหมักเปรี้ยวสไตล์อีสาน ทำจากหมูสับผสมข้าวสุก หมักจนได้รสเปรี้ยวนิดๆ ย่างจนหอมกรอบ กินคู่กับขิงสด พริกสด และกระเทียม</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="food-grid-divider"></div>
+        </div>
+    </section>
+
+    <!-- Central Thailand -->
+    <section id="central" class="region-section">
+        <div class="region-hero">
+            <div class="region-hero-bg">
+                <img src="images/central-hero.jpg" alt="ภาคกลาง">
+            </div>
+            <div class="region-hero-overlay"></div>
+            <div class="region-hero-gradient"></div>
+            <div class="region-hero-gradient-side"></div>
+            <div class="film-grain"></div>
+
+            <div class="container region-hero-content">
+                <p class="region-label fade-in">Central Thailand</p>
+                <h2 class="region-title fade-in delay-1">ภาคกลาง</h2>
+                <p class="region-tagline fade-in delay-2">"น่าอร่อยจัง"</p>
+                <p class="region-description fade-in delay-3">
+                    อาหารภาคกลางมีรสชาติกลมกล่อม ผสมผสานรสหวาน เค็ม เปรี้ยว เผ็ด อย่างลงตัว เป็นต้นแบบอาหารไทยที่โด่งดังไปทั่วโลก
+                </p>
+                <div class="region-line fade-in delay-4"></div>
+            </div>
+
+            <div class="region-scroll">
+                <span>SCROLL</span>
+                <div class="region-scroll-line"></div>
+            </div>
+        </div>
+
+        <div class="food-grid-section">
+            <div class="food-grid-ambient"></div>
+            <div class="container">
+                <div class="food-grid-header">
+                    <p class="food-grid-label">Signature Dishes</p>
+                    <h3 class="food-grid-title">เมนูเด็ดประจำภาค</h3>
+                </div>
+                <div class="food-grid">
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/tom-yum.jpg" alt="ต้มยำกุ้ง">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Tom Yum Kung</p>
+                            <h4 class="food-card-title-th">ต้มยำกุ้ง</h4>
+                            <p class="food-card-description">ต้มยำกุ้งน้ำข้นสูตรดั้งเดิม รสเปรี้ยวเผ็ดจัดจ้าน หอมกลิ่นตะไคร้ ใบมะกรูด ข่า พริกขี้หนู กุ้งแม่น้ำตัวโตสดใหม่ เป็นอาหารไทยที่โด่งดังไปทั่วโลก</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/moo-wan.webp" alt="หมูหวาน">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Thai Sweet Pork</p>
+                            <h4 class="food-card-title-th">หมูหวาน</h4>
+                            <p class="food-card-description">หมูสามชั้นเคี่ยวในน้ำตาลปี๊บจนเข้าเนื้อ รสหวานนำ เค็มตาม หอมกลิ่นพริกไทย เนื้อหมูนุ่มเปื่อย เสิร์ฟคู่ข้าวสวยร้อนๆ เป็นอาหารบ้านสไตล์ไทยแท้</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/sangkaya.jpg" alt="สังขยาฟักทอง">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Egg Custard in Pumpkin</p>
+                            <h4 class="food-card-title-th">สังขยาฟักทอง</h4>
+                            <p class="food-card-description">ขนมหวานไทยโบราณ ไข่ผสมกะทิและน้ำตาลปี๊บนึ่งในฟักทองทั้งลูก รสหวานมัน เนื้อเนียนนุ่ม หอมกลิ่นใบเตย เป็นของหวานในงานมงคล</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="food-grid-divider"></div>
+        </div>
+    </section>
+
+    <!-- Southern Thailand -->
+    <section id="southern" class="region-section">
+        <div class="region-hero">
+            <div class="region-hero-bg">
+                <img src="images/southern-hero.jpg" alt="ภาคใต้">
+            </div>
+            <div class="region-hero-overlay"></div>
+            <div class="region-hero-gradient"></div>
+            <div class="region-hero-gradient-side"></div>
+            <div class="film-grain"></div>
+
+            <div class="container region-hero-content">
+                <p class="region-label fade-in">Southern Thailand</p>
+                <h2 class="region-title fade-in delay-1">ภาคใต้</h2>
+                <p class="region-tagline fade-in delay-2">"หรอยจังฮู้"</p>
+                <p class="region-description fade-in delay-3">
+                    อาหารใต้ขึ้นชื่อเรื่องความเผ็ดร้อนจัดจ้าน ใช้เครื่องเทศและสมุนไพรหลากหลาย ได้รับอิทธิพลจากวัฒนธรรมมลายูและอินเดีย
+                </p>
+                <div class="region-line fade-in delay-4"></div>
+            </div>
+
+            <div class="region-scroll">
+                <span>SCROLL</span>
+                <div class="region-scroll-line"></div>
+            </div>
+        </div>
+
+        <div class="food-grid-section">
+            <div class="food-grid-ambient"></div>
+            <div class="container">
+                <div class="food-grid-header">
+                    <p class="food-grid-label">Signature Dishes</p>
+                    <h3 class="food-grid-title">เมนูเด็ดประจำภาค</h3>
+                </div>
+                <div class="food-grid">
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/tai-pla.jpg" alt="แกงไตปลา">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Kaeng Tai Pla</p>
+                            <h4 class="food-card-title-th">แกงไตปลา</h4>
+                            <p class="food-card-description">แกงรสจัดจ้านของภาคใต้ ปรุงจากไตปลาหมักที่ให้รสเค็มเข้มข้น ใส่หน่อไม้ ถั่วฝักยาว มะเขือ เผ็ดร้อนถึงใจ เป็นอาหารพื้นบ้านที่มีเอกลักษณ์เฉพาะตัว</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/gaeng-som.jpg" alt="แกงส้ม">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Gaeng Som Sour Curry</p>
+                            <h4 class="food-card-title-th">แกงส้ม</h4>
+                            <p class="food-card-description">แกงส้มปักษ์ใต้รสเปรี้ยวนำ เผ็ดตาม น้ำแกงใสสีส้มสดจากขมิ้น ใส่ผักพื้นบ้านและปลาสด รสชาติสดชื่น กินคู่ข้าวสวยร้อนๆ ช่วยเจริญอาหาร</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                    <div class="food-card">
+                        <div class="food-card-image">
+                            <img src="images/pak-boong.jpg" alt="ผัดใบเลียงใส่ไข่">
+                            <div class="food-card-image-overlay"></div>
+                            <div class="food-card-image-hover"></div>
+                        </div>
+                        <div class="food-card-content">
+                            <p class="food-card-title-en">Stir-fried Melinjo Leaves</p>
+                            <h4 class="food-card-title-th">ผัดใบเลียงใส่ไข่</h4>
+                            <p class="food-card-description">ผักพื้นบ้านภาคใต้ผัดกับไข่ รสชาติเรียบง่ายแต่อร่อย ใบเลียงมีรสขมนิดๆ ผัดกับกระเทียมและน้ำปลา เป็นอาหารสุขภาพที่หาทานได้ยาก</p>
+                        </div>
+                        <div class="food-card-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="food-grid-divider"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top-line"></div>
+        <div class="container footer-content">
+            <h2 class="footer-logo">Food of Thailand</h2>
+            <p class="footer-subtitle">อาหารไทย 4 ภาค</p>
+            <div class="footer-divider"></div>
+            <p class="footer-description">
+            </p>
+            <div class="footer-regions">
+                <a href="#northern" class="footer-region">
+                    <p class="footer-region-en">NORTHERN</p>
+                    <p class="footer-region-th">ภาคเหนือ</p>
+                </a>
+                <a href="#isan" class="footer-region">
+                    <p class="footer-region-en">ISAN</p>
+                    <p class="footer-region-th">ภาคอีสาน</p>
+                </a>
+                <a href="#central" class="footer-region">
+                    <p class="footer-region-en">CENTRAL</p>
+                    <p class="footer-region-th">ภาคกลาง</p>
+                </a>
+                <a href="#southern" class="footer-region">
+                    <p class="footer-region-en">SOUTHERN</p>
+                    <p class="footer-region-th">ภาคใต้</p>
+                </a>
+            </div>
+            <p class="footer-copyright"></p>
+        </div>
+        <div class="footer-corner-left"></div>
+        <div class="footer-corner-right"></div>
+    </footer>
+
+    <script>
+        // Scroll Progress
+        window.addEventListener('scroll', function() {
+            const scrollProgress = document.getElementById('scrollProgress');
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            scrollProgress.style.width = scrollPercent + '%';
+        });
+
+        // Active Navigation
+        const sections = ['intro', 'northern', 'isan', 'central', 'southern'];
+        const navItems = document.querySelectorAll('.nav-item');
+        const mobileMenuItems = document.querySelectorAll('.mobile-menu-item');
+
+        window.addEventListener('scroll', function() {
+            let current = '';
+            sections.forEach(function(sectionId) {
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    const rect = section.getBoundingClientRect();
+                    if (rect.top <= 150 && rect.bottom >= 150) {
+                        current = sectionId;
+                    }
+                }
+            });
+
+            navItems.forEach(function(item) {
+                item.classList.remove('active');
+                if (item.getAttribute('data-section') === current) {
+                    item.classList.add('active');
+                }
+            });
+
+            mobileMenuItems.forEach(function(item) {
+                item.classList.remove('active');
+                if (item.getAttribute('href') === '#' + current) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Mobile Menu
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileMenuClose = document.getElementById('mobileMenuClose');
+
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.add('active');
+        });
+
+        mobileMenuClose.addEventListener('click', function() {
+            mobileMenu.classList.remove('active');
+        });
+
+        mobileMenuItems.forEach(function(item) {
+            item.addEventListener('click', function() {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(function(el) {
+            el.style.animationPlayState = 'paused';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
